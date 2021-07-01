@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm ci
-          npm install -g next react react-dom
+          sudo npm install -g next react react-dom
           npm install --save-dev eslint eslint-config-next
           #mkdir pages
 
