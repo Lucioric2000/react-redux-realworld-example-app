@@ -20,7 +20,8 @@ jobs:
         run: mkdir -f /home/runner/work/CV-Frontend/CV-Frontend/build
 
       - name: Build project
-        run: npm run build
+        #run: npm run build
+        run: next build
 
       - uses: jakejarvis/s3-sync-action@master
         with:
