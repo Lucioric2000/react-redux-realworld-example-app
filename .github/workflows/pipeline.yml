@@ -1,4 +1,5 @@
 on: [push]
+environment: Development
 jobs:
   run:
     name: Run
