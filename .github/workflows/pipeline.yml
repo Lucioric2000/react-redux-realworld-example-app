@@ -19,7 +19,7 @@ jobs:
           npm install next
 
       - name: Create Build folder
-        run: mkdir -f /home/runner/work/CV-Frontend/CV-Frontend/build
+        run: mkdir -p /home/runner/work/CV-Frontend/CV-Frontend/build
 
       - name: Build project
         #run: npm run build
