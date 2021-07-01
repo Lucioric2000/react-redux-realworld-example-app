@@ -1,6 +1,6 @@
 on: [push]
-environment: Development
 jobs:
+  environment: Development
   run:
     name: Run
     runs-on: ubuntu-latest
