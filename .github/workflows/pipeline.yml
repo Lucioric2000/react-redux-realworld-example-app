@@ -17,7 +17,7 @@ jobs:
         run: npm ci
 
       - name: Create Build folder
-        run: mkdir ./build
+        run: mkdir -f /home/runner/work/CV-Frontend/CV-Frontend/build
 
       - name: Build project
         run: npm run build
