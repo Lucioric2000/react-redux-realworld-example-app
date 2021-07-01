@@ -1,9 +1,9 @@
 on: [push]
 jobs:
-  environment: Development
   run:
     name: Run
     runs-on: ubuntu-latest
+    environment: Development
 
     strategy:
       matrix:
