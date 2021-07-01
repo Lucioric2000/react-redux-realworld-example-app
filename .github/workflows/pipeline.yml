@@ -16,7 +16,9 @@ jobs:
       - name: Install dependencies
         run: |
           npm ci
-          npm install next
+          npm install -g next react react-dom
+          npm install --save-dev eslint eslint-config-next
+          #mkdir pages
 
       - name: Create Build folder
         run: mkdir -p /home/runner/work/CV-Frontend/CV-Frontend/build
