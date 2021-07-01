@@ -18,7 +18,7 @@ jobs:
           npm ci
           sudo npm install -g next react react-dom
           npm install --save-dev eslint eslint-config-next
-          #mkdir pages
+          mkdir pages
 
       - name: Create Build folder
         run: mkdir -p /home/runner/work/CV-Frontend/CV-Frontend/build
