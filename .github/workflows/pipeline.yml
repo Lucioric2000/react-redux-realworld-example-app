@@ -19,6 +19,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Create Build folder
+        run: mkdir ./build
+
       - uses: jakejarvis/s3-sync-action@master
         with:
           args: --acl public-read --follow-symlinks --delete
